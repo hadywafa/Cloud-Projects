@@ -115,6 +115,50 @@ By organizing your credentials and configuration settings in these files, you ca
 
 ### Using  Environment variables
 
+Environment variables allow you to set configuration values directly in your system's environment, which can be useful for temporary settings or automated scripts.
+
+#### Key Environment Variables
+
+1. **AWS Access Credentials**:
+   - **AWS_ACCESS_KEY_ID**: Your AWS access key ID.
+   - **AWS_SECRET_ACCESS_KEY**: Your AWS secret access key.
+   - **AWS_SESSION_TOKEN**: (Optional) Token for temporary session credentials.
+
+2. **Configuration Settings**:
+   - **AWS_DEFAULT_REGION**: Sets the default region (e.g., `us-west-2`).
+   - **AWS_DEFAULT_OUTPUT**: Sets the default output format (`json`, `text`, or `table`).
+
+3. **Profile Settings**:
+   - **AWS_PROFILE**: Specifies which profile to use from the configuration and credentials files.
+
+4. **AWS Shared Config and Credentials File Locations**:
+   - **AWS_CONFIG_FILE**: Overrides the default config file location (e.g., `/custom/path/config`).
+   - **AWS_SHARED_CREDENTIALS_FILE**: Overrides the default credentials file location (e.g., `/custom/path/credentials`).
+
+#### Usage Examples
+
+- **Setting Environment Variables in a Unix Shell**:
+
+   ```sh
+   export AWS_ACCESS_KEY_ID=YOUR_ACCESS_KEY_ID
+   export AWS_SECRET_ACCESS_KEY=YOUR_SECRET_ACCESS_KEY
+   export AWS_DEFAULT_REGION=us-west-2
+   ```
+
+- **Using a Specific Profile**:
+
+   ```sh
+   export AWS_PROFILE=user1
+   aws s3 ls
+   ```
+
+- **Custom Config and Credentials File Locations**:
+
+   ```sh
+   export AWS_CONFIG_FILE=/custom/path/config
+   export AWS_SHARED_CREDENTIALS_FILE=/custom/path/credentials
+   ```
+
 ### Using Command line options
 
 ### Notes
