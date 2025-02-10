@@ -11,6 +11,7 @@
     "**/Thumbs.db": true,
     "**/bin": true,
     "**/obj": true,
+    "**/.venv": true,
     "**/.vs": true,
     "**/node_modules": true
   }
