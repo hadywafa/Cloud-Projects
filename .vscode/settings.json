@@ -10,7 +10,7 @@
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
     "**/bin": true,
-    "**/obj": true,
+    "**/obj": false,
     "**/.vs": true,
     "**/node_modules": true
   }
