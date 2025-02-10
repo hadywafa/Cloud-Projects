@@ -1,0 +1,10 @@
+{
+  "explorerExclude.backup": {},
+  "files.exclude": {
+    "**/bin": true,
+    "**/obj": true,
+    "**/.vscode": true,
+    "**/.vs": true,
+    "**/node_modules": true
+  }
+}
