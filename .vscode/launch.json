@@ -8,7 +8,7 @@
       "name": "python: configure-kodekloud-access-key",
       "type": "debugpy",
       "request": "launch",
-      "program": "${workspaceFolder}/automation/configure-kodekloud-access-key/main.py", //${workspaceFolder}/configure_kodekloud_access_key.py or ${file} if the file is opened in a separate window
+      "program": "${workspaceFolder}/automation/configure-kodekloud-access-key/main.py",
       "console": "integratedTerminal",
       "args": [
         "--account-id",
@@ -16,10 +16,7 @@
         "--username",
         "kk_labs_user_908452",
         "--password",
-        "24hs!loolTq%",
-        // "--use-existing-file",
-        // "--file",
-        // "C:\\Users\\HadyW\\Downloads\\kk_labs_user_786051_accessKeys.csv"
+        "24hs!loolTq%"
       ]
     }
   ]
