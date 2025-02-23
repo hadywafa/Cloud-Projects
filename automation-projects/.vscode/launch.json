@@ -1,0 +1,23 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "python: configure-kodekloud-access-key",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/configure-kodekloud-access-key-with-selenium/main.py",
+      "console": "integratedTerminal",
+      "args": [
+        "--account-id",
+        "992382785132",
+        "--username",
+        "kk_labs_user_384334",
+        "--password",
+        "IZ6na@^vXfrV"
+      ]
+    }
+  ]
+}
